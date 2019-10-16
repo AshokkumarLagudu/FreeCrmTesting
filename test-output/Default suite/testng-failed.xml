@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestPages.DiscoveryPageProject">
+        <methods>
+          <include name="selectShows"/>
+          <include name="click_on_Apollo_Shows"/>
+          <include name="get_Apollo_Shows_links"/>
+          <include name="verify_Favorite_Shows_Titles"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestPages.DiscoveryPageProject -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
